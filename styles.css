@@ -1,58 +1,79 @@
-.box{
-    margin: 0 auto; 
-    width: 20%;
-    height: 850px;
-    border-radius: 5px; 
-    display:flex;
+.box {
+  margin: 0 auto;
+  /* width: 20%;  */
+  height: 53em;
+  border-radius: 5px;
+  display: flex;
 }
 
 .logo-name {
-    margin:0 auto;
-    width: 50px;
-    height: 50px;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    transform: translateX(50%);
-    margin-bottom: 100px; 
+  margin: 0 auto;
+  flex: 0 0 auto;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 100px;
 }
-  
-  h1 {
-    font-size: 3rem;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .box {
-      width: 70%;
-      margin: 0 auto;
-    }
-  }
-  
 
-  @media screen and (max-width: 576px) {
-    .box {
-      margin: 0 1em;
-      width: 90%;
-    }
-  
-    h1 {
-      font-size: 1.5rem;
-    }
+h1 {
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .box {
+    width: 35%;
   }
-  
-  @media screen and (max-width: 400px) {
-    .box {
-      margin: 0 .5em;
-      width: 100%;
-    }
-  
-    h1 {
-      font-size: 1.2rem;
-    }
-  
-    .logo-name {
-      width: 20%;
-    }
+}
+
+@media screen and (max-width:1024px) {
+  .box {
+    width: 45%;
   }
-  
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .box {
+    width: 55%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .box {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .box {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+}
